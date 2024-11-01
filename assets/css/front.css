@@ -1,0 +1,88 @@
+.zs_filter_block{
+    display: block;
+}
+.zs_card{
+}
+.zs_card img{
+}
+
+/* Slide */
+
+.price-slider {
+    position: relative;
+    width: 800px;
+    margin: 0 auto 20px;
+    height: 35px;
+    text-align: center;
+}
+
+.price-slider input {
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 100%;
+    outline: none;
+    height: 18px;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+}
+
+.price-slider input::-webkit-slider-thumb {
+    pointer-events: all;
+    position: relative;
+    z-index: 1;
+    outline: 0;
+    -webkit-appearance: none;
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+    background-color: white;
+    border: 2px solid black;
+}
+.zoospas_modal_body, .zs_form_class{
+    padding: 2rem;
+}
+.zoospas_modal_body input, .zoospas_modal_body select, .zs_form_class input, .zs_form_class select{
+    display: block;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 20px;
+}
+.zoospas_modal_bg{
+
+}
+.zoospas_btn {
+
+}
+.zoospas_mb{
+    margin-bottom: 20px;
+}
+.zs_nail_responce_box {
+    display: block;
+    padding: 15px;
+    border-radius: 2px;
+}
+.zs_nail_responce_box.false {
+    background-color: crimson;
+}
+.zs_nail_responce_box.true {
+    background-color: #1caf9a;
+}
+.zoospas_meta_box_w_tumb, .zoospas_meta_box_w_tumb *{
+    border: none;
+}
+.zoospas_meta_box_w_tumb * {
+    padding: 0 !important;
+}
+.zoospas_p_table th{
+    text-align: left;
+}
+.zoospas_p_table > tr:first-child {
+    max-width: 30%;
+}
+.zoospas_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
